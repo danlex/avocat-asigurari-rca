@@ -10,8 +10,12 @@
     </div>
     <div class="footer-col">
       <h4>Contact</h4>
+      <p><a href="{{ site.geo.map_url }}" target="_blank" rel="noopener">{{ site.geo.street }}, {{ site.geo.locality }}</a></p>
       <p><a href="tel:{{ site.contact.phone_href }}">{{ site.contact.phone }}</a></p>
       <p><a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></p>
+      <div class="footer-social">
+        {% for s in site.social %}<a href="{{ s.url }}" target="_blank" rel="noopener" aria-label="{{ s.name }}">{{ s.name }}</a>{% endfor %}
+      </div>
     </div>
     <div class="footer-col">
       <h4>Navigare</h4>

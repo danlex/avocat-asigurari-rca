@@ -15,8 +15,10 @@
   "knowsLanguage": ["ro", "en", "es"],
   "address": {
     "@type": "PostalAddress",
+    "streetAddress": "{{ site.geo.street }}",
     "addressLocality": "{{ site.geo.locality }}",
     "addressRegion": "{{ site.geo.region_name }}",
+    "postalCode": "{{ site.geo.postal_code }}",
     "addressCountry": "{{ site.geo.country }}"
   },
   "geo": {
@@ -24,6 +26,7 @@
     "latitude": {{ site.geo.latitude }},
     "longitude": {{ site.geo.longitude }}
   },
+  "hasMap": "{{ site.geo.map_url }}",
   "areaServed": [{% for a in site.geo.area_served %}{ "@type": "AdministrativeArea", "name": "{{ a }}" }{% unless forloop.last %}, {% endunless %}{% endfor %}],
   "knowsAbout": [{% for k in site.knows_about %}"{{ k }}"{% unless forloop.last %}, {% endunless %}{% endfor %}],
   "founder": {
