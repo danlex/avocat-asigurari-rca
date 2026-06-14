@@ -37,7 +37,39 @@
       { "@type": "EducationalOrganization", "name": "Institutul Național pentru Pregătirea și Perfecționarea Avocaților" }
     ]
   },
-  "sameAs": [{% for s in site.same_as %}"{{ s }}"{% unless forloop.last %}, {% endunless %}{% endfor %}]
+  "sameAs": [{% for s in site.same_as %}"{{ s }}"{% unless forloop.last %}, {% endunless %}{% endfor %}],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "4",
+    "bestRating": "5"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "author": { "@type": "Person", "name": "Ștefan Veronica" },
+      "reviewBody": "Domnul avocat m-a ajutat să îmi cunosc drepturile și mi-a valorificat cauza pe cale civilă, deși nu formulasem plângere penală. Am obținut despăgubiri deosebit de mari."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "author": { "@type": "Person", "name": "N. H." },
+      "reviewBody": "A introdus o acțiune civilă separată împotriva firmei de asigurări și a susținut cauza cu multă abilitate. Despăgubiri consistente obținute în instanță."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "author": { "@type": "Person", "name": "Dumitra Bloju" },
+      "reviewBody": "Abilitatea profesională și insistența avocaților m-au ajutat să îmi fie plătite toate pretențiile legale. Îi recomand cu încredere."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "author": { "@type": "Person", "name": "Iordache Mariana" },
+      "reviewBody": "M-au ajutat să îmi recapăt demnitatea și să îmi recuperez drepturile bănești, atât material cât și moral. Profesionalism și tenacitate."
+    }
+  ]
 }
 </script>
 
