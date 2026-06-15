@@ -2,7 +2,7 @@
 layout: none
 permalink: /llms.txt
 ---
-# Cabinet de Avocat VARZARU ION — Avocat Asigurări RCA
+# Cabinet de Avocat VARZARU ION (Avocat Asigurări RCA)
 
 > Cabinet de avocatură din București specializat în recuperarea daunelor și
 > obținerea despăgubirilor din accidente rutiere grave (asigurări RCA). Reprezintă
@@ -19,8 +19,8 @@ permalink: /llms.txt
 
 ## Domenii de specializare
 - Despăgubiri din accidente auto / accidente rutiere
-- Asigurări RCA — litigii cu societățile de asigurări
-- Daune materiale (sume cheltuite, câștig nerealizat — acordate în măsura dovedirii)
+- Asigurări RCA: litigii cu societățile de asigurări
+- Daune materiale (sume cheltuite, câștig nerealizat, acordate în măsura dovedirii)
 - Daune morale (repararea suferinței de ordin psihic)
 - Asistență și apărare penală (ucidere/vătămare din culpă, conducere sub influență)
 - Drept succesoral, recuperări creanțe, divorț și autoritate parentală
